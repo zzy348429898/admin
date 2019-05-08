@@ -1,0 +1,78 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "refactor resume",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config=config/webpack.dev.js --hot",
+    "build": "webpack --config=config/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzy348429898/resume.git"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "antd": "^3.16.6",
+    "babel-preset-es2015": "^6.24.1",
+    "lodash-decorators": "^6.0.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.5.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^5.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-promise-middleware": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/lodash-decorators": "^4.0.0",
+    "@types/node": "^11.13.4",
+    "@types/react": "^16.8.13",
+    "@types/react-dom": "^16.8.3",
+    "@types/react-redux": "^7.0.6",
+    "@types/react-router-dom": "^4.3.2",
+    "@types/redux-logger": "^3.0.7",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-import": "^1.11.0",
+    "clean-webpack-plugin": "^2.0.1",
+    "css-loader": "^1.0.0",
+    "eslint-plugin-react": "^7.12.4",
+    "file-loader": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "json-loader": "^0.5.7",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "mini-css-extract-plugin": "^0.6.0",
+    "postcss": "^7.0.14",
+    "postcss-loader": "^3.0.0",
+    "react-hot-loader": "^4.8.4",
+    "style-loader": "^0.23.0",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.4.3",
+    "typings-for-css-modules-loader": "^1.7.0",
+    "url-loader": "^1.1.1",
+    "webpack": "^4.20.2",
+    "webpack-bundle-analyzer": "^3.3.2",
+    "webpack-cli": "^3.1.1",
+    "webpack-dev-server": "^3.1.9",
+    "webpack-merge": "^4.1.4"
+  },
+  "keywords": [
+    "resume"
+  ],
+  "author": "zzy348429898",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zzy348429898/resume/issues"
+  },
+  "homepage": "https://github.com/zzy348429898/resume#readme"
+}
